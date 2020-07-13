@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FFFF7F20</color>
+    <color name="white">#ffffff</color>
+    <color name="ic_home">#64C7FF</color>
+    <color name="ic_search">#70E852</color>
+    <color name="ic_favorites">#FF0000</color>
+    <color name="ic_settings">#FFFF7F20</color>
+</resources>

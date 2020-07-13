@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_news"
+            android:title="News"
+            app:cnb_iconColor="@color/ic_home"/>
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search"
+            android:title="Search"
+            app:cnb_iconColor="@color/ic_search"/>
+        <item
+            android:id="@+id/favorites"
+            android:icon="@drawable/ic_heart"
+            android:title="Favorites"
+            app:cnb_iconColor="@color/ic_favorites" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"
+            app:cnb_iconColor="@color/ic_settings" />
+</menu>

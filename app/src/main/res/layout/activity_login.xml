@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="300dp"
+        android:layout_height="330dp"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/login_carrot" />
+
+    <EditText
+        android:id="@+id/username_login_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/imageView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:hint="@string/prompt_login"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/password_login_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/username_login_activity"
+        app:layout_constraintEnd_toEndOf="@+id/username_login_activity"
+        app:layout_constraintStart_toStartOf="@+id/username_login_activity"
+        app:layout_constraintTop_toBottomOf="@+id/username_login_activity" />
+
+    <Button
+        android:id="@+id/btLogin_login_activity"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password_login_activity"
+        app:layout_constraintEnd_toEndOf="@+id/password_login_activity"
+        app:layout_constraintStart_toStartOf="@+id/password_login_activity"
+        app:layout_constraintTop_toBottomOf="@+id/password_login_activity"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/goToRegiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/dont_have_an_account"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_below="@id/btLogin_login_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btLogin_login_activity" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

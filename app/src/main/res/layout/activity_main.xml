@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="240sp"
+        android:layout_height="270sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="160sp"
+        app:srcCompat="@drawable/rabbit_with_carrot" />
+
+    <TextView
+        android:id="@+id/Title_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:textSize="70sp"
+        android:fontFamily="@font/indigo_daisy"
+        android:text="@string/app_name"
+        android:textColor="#343F3E"/>
+
+    <TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="210sp"
+    android:textSize="20sp"
+    android:text="Don't wait"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180sp"
+        android:textSize="20sp"
+        android:text="Log in or create a new account now"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_centerInParent="true"/>
+
+    <Button
+    android:id="@+id/btLogIn_main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/textView4"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="-90dp"
+    android:background="@drawable/orange_button"
+    android:gravity="center"
+    android:text="Log in"
+    android:textAllCaps="false"
+    android:textStyle="italic"
+    android:textSize="25sp"
+
+    />
+
+    <Button
+        android:id="@+id/btRegister_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btLogIn_main_activity"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="-115sp"
+        android:background="@drawable/orange_button"
+        android:gravity="center"
+        android:text="Register"
+        android:textAllCaps="false"
+
+        android:textStyle="italic"
+        android:textSize="25dp"
+        />
+</RelativeLayout>
